@@ -30,20 +30,20 @@ const DatosClima = ({ clima, mostrarDatos }) => {
             <i class="far fa-building"></i> Ciudad: {clima.city}
           </p>
           <p>
-            <i class="fas fa-thermometer-half"></i> Temperatura: {clima.temp}
+            <i class="fas fa-thermometer-half"></i> Temperatura: {clima.temp} °C
           </p>
           <p>
             <i class="fas fa-temperature-high"></i> Temperatura Máxima:{" "}
-            {clima.temp_max}
+            {clima.temp_max} °C
           </p>
           <p>
-            <i class="fas fa-temperature-low"></i> Temperatura Mínima:{" "}
-            {clima.temp_min}
+            <i class="fas fa-temperature-low"></i> Temperatura Mínima:{" "} 
+            {clima.temp_min} °C
           </p>
 
           <div>
             <p className="info">
-              En la ciudad de {clima.city} hay un clima equivalente a {""}
+              En la ciudad de {clima.city} hay una temperatura equivalente a {""}
               {clima.temp}, con una maxima de {""}
               {clima.temp_max} y una minima de {""} {clima.temp_min}.{" "}
               {climaInfo()}

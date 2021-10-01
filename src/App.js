@@ -13,7 +13,7 @@ function App() {
     const { ciudad, pais } = e.target.elements;
     const valorCidad = ciudad.value;
     const valorPais = pais.value;
-    if (valorCidad.trim() === "" || valorPais === "") {
+    if (valorCidad.trim() === "" || valorPais.trim() === "") {
       setError(true);
       setMostrarDatos(false);
     } else {

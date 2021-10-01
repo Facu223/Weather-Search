@@ -9,7 +9,7 @@ const Form = (props) => {
         <form onSubmit={props.traerClima}>
           <div>
             <label>Ciudad : </label> <br/>
-            <input type="text" name="ciudad" class="form-control" />
+            <input type="text" name="ciudad" class="form-control"/>
           </div>
           <div>
             <label>País de la ciudad : </label> <br/>
